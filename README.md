@@ -39,6 +39,10 @@ Pip is a Python Package Manager.
 
 This command will install python and pip.
 
+##### Pyhton code style guide
+This document gives coding conventions for the Python code comprising the standard library in the main Python distribution.
+https://www.python.org/dev/peps/pep-0008
+
 ##### Using Pip
 * In order to install desired package just type `pip install desired_package` (e.g. `pip install Flask`)
 * If you are working on Linux, type `sudo pip install desired_package` (e.g. `sudo pip install Flask`)
