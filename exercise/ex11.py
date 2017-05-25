@@ -1,5 +1,5 @@
-#This is Python version 2.7.12
-#Exercise 11: Asking Questions
+# This is Python version 2.7.12
+# Exercise 11: Asking Questions
 
 # using raw_input with convert to integer
 print "How old are you?",

@@ -1,5 +1,5 @@
-#This is Python version 2.7.12
-#Exercise 29: What If
+# This is Python version 2.7.12
+# Exercise 29: What If
 
 people = 20
 cats = 30

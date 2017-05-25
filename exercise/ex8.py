@@ -1,5 +1,5 @@
-#This is Python version 2.7.12
-#Exercise 8: Printing, Printing
+# This is Python version 2.7.12
+# Exercise 8: Printing, Printing
 
 formatter = "%r %r %r %r"
 

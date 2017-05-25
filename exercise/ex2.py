@@ -1,10 +1,10 @@
-#This is Python version 2.7.12
-#Exercise 2: Comments and Pound Characters
+# This is Python version 2.7.12
+# Exercise 2: Comments and Pound Characters
 
 # A comment, this is so you can read your program later.
 # Anything after the # is ignored by pyhton
 
-print "I could have code like this." #and the comment after is ignored
+print "I could have code like this."  # and the comment after is ignored
 
 # You can also use a comment to 'disable or comment out a piece of code:
 # print "This won't run."

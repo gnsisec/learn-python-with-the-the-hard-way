@@ -1,6 +1,4 @@
-#This is Python version 2.7.12
-#Exercise 39: Dictionaries, Oh Lovely Dictionaries
-
+# Exercise 39: Dictionaries, Oh Lovely Dictionaries
 # create a mapping of state to abbreviation
 states = {
     'Oregon': 'OR',
@@ -30,8 +28,8 @@ print "OR State has: ", cities['OR']
 
 # print out some states
 print '-' * 10
-print "Michigan's abbreviation is: ",states['Michigan']
-print "Florida's abbreviation is: ",states['Florida']
+print "Michigan's abbreviation is: ", states['Michigan']
+print "Florida's abbreviation is: ", states['Florida']
 
 # do it by using the state then cities dict
 print '-' * 10
@@ -46,9 +44,8 @@ for abbrev, city in cities.items():
 # now do both at the same time
 print '-' * 10
 for state, abbrev in states.items():
-    print "%s state is abbreviated %s and has city %s" % (
-    state, abbrev, cities[abbrev]
-    )
+    print "%s state is abbreviated %s and has city %s" \
+        % (state, abbrev, cities[abbrev])
 
 print '-' * 10
 # safely get a abbreviation by state that might not be there
@@ -59,6 +56,6 @@ if not state:
     print "Sorry, no Texas"
 
 # get a city with a default value
-city = cities.get('TX','Doesn\'t Exist')
+city = cities.get('TX', 'Doesn\'t Exist')
 # print cities
 print "The city for the state 'TX' is: %s" % city

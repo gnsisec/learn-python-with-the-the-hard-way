@@ -1,7 +1,8 @@
-#This is Python version 2.7.12
-#Exercise 35: Branches and Functions
+# This is Python version 2.7.12
+# Exercise 35: Branches and Functions
 
 from sys import exit
+
 
 def gold_room():
     print "This room is full of gold.  How much do you take?"
@@ -28,6 +29,7 @@ def gold_room():
     else:
         dead("You greedy bastard!")
 
+
 def bear_room():
     print "There is a bear here."
     print "The bear has a bunch of honey."
@@ -41,14 +43,16 @@ def bear_room():
         if choice == "take honey":
             dead("The bear looks at you then slaps you face off.")
         elif choice == "taunt bear" and not bear_moved:
-            print "The bear gas moved from the door. You can go through it now."
+            print "The bear gas moved from the door.\
+                You can go through it now."
             bear_moved = True
         elif choice == "taunt bear" and bear_moved:
             dead("The bear gets pissed off amd chew your leg off.")
         elif choice == "open door" and bear_moved:
             gold_room()
-        else :
+        else:
             print "I got no idea what that means."
+
 
 def cthulhu_room():
     print "Here you see the great evil Cthulhu."
@@ -63,9 +67,11 @@ def cthulhu_room():
     else:
         cthulhu_room()
 
+
 def dead(why):
     print why, "Good job!"
     exit(0)
+
 
 def start():
     print "You are in a dark room"
@@ -80,5 +86,6 @@ def start():
         cthulhu_room()
     else:
         dead("You stumble arounf the room until you strave.")
+
 
 start()

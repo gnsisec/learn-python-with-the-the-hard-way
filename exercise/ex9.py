@@ -1,5 +1,5 @@
-#This is Python version 2.7.12
-#Exercise 9: Printing, Printing, Printing
+# This is Python version 2.7.12
+# Exercise 9: Printing, Printing, Printing
 
 # Here's some new strange stuff, remember type it exacly
 

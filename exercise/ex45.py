@@ -1,5 +1,6 @@
-#This is Python version 2.7.12
-#Exercise 45: You Make A Game
+# This is Python version 2.7.12
+# Exercise 45: You Make A Game
+
 
 class game(object):
     def __init__(self):
@@ -9,6 +10,7 @@ class game(object):
     def start(self):
         self.level_one.enter()
         self.level_two.enter()
+
 
 class mission(object):
     def welcome(self):
@@ -25,6 +27,7 @@ class mission(object):
         print "Congrats! You finish it!!!"
         exit(0)
 
+
 class level_one(mission):
     def enter(self):
         self.level = 1
@@ -35,6 +38,7 @@ class level_one(mission):
             self.success()
         else:
             self.fail()
+
 
 class level_two(mission):
     def enter(self):

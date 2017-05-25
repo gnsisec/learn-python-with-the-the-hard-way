@@ -1,5 +1,5 @@
-#This is Python version 2.7.12
-#Exercise 23: Read Some Code
+# This is Python version 2.7.12
+# Exercise 23: Read Some Code
 
 from math import factorial, sqrt
 

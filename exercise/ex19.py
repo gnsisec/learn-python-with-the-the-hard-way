@@ -1,5 +1,6 @@
-#This is Python version 2.7.12
-#Exercise 19: Functions and Variables
+# This is Python version 2.7.12
+# Exercise 19: Functions and Variables
+
 
 def cheese_and_crackers(cheese_count, boxes_of_crackers):
     print "You have %d cheeses!" % cheese_count
@@ -7,8 +8,9 @@ def cheese_and_crackers(cheese_count, boxes_of_crackers):
     print "Man that's enough for party!"
     print "Get a blanket.\n"
 
+
 print "We can just give the function number direcly:"
-cheese_and_crackers(20,30)
+cheese_and_crackers(20, 30)
 
 print "Or, we can use variables from our script:"
 amount_of_chesse = 10

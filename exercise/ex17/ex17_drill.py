@@ -1,5 +1,5 @@
-#This is Python version 2.7.12
-#Exercise 17: More Files
+# This is Python version 2.7.12
+# Exercise 17: More Files
 
 # to run this use:
 # python ex17.py test.txt new_file.txt
@@ -15,7 +15,7 @@ script, from_file, to_file = argv
 
 print "Copying from %s to %s" % (from_file, to_file)
 
-#we could do these two on one line, how ?
+# we could do these two on one line, how ?
 # in_file = open(from_file)
 # indata = in_file.read()
 
@@ -26,7 +26,7 @@ print "Copying from %s to %s" % (from_file, to_file)
 # raw_input()
 
 # out_file = open(to_file,'w')
-open(to_file,'w').write(open(from_file).read())
+open(to_file, 'w').write(open(from_file).read())
 
 # print "Alright, all done"
 

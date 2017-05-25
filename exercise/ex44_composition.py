@@ -1,5 +1,6 @@
-#This is Python version 2.7.12
-#Exercise 44: Inheritance Versus Composition
+# This is Python version 2.7.12
+# Exercise 44: Inheritance Versus Composition
+
 
 class Other(object):
 
@@ -11,6 +12,7 @@ class Other(object):
 
     def altered(self):
         print "OTHER altered()\n"
+
 
 class Child(object):
 
@@ -27,6 +29,7 @@ class Child(object):
         print "CHILD, BEFORE OTHER altered()"
         self.composition.altered()
         print "CHILD, AFTER OTHER altered()"
+
 
 son = Child()
 

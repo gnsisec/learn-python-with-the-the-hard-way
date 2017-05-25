@@ -1,5 +1,5 @@
-#This is Python version 2.7.12
-#Exercise 23: Read Some Code
+# This is Python version 2.7.12
+# Exercise 23: Read Some Code
 
 import random
 
@@ -10,8 +10,8 @@ roll_again = "yes"
 
 while roll_again == "yes" or roll_again == "y" or roll_again == "YES":
     print "Roll The Dice!!!"
-    print "You got",random.randint(min,max),"in first dice"
-    print "You got",random.randint(min,max),"in second dice\n"
+    print "You got", random.randint(min, max), "in first dice"
+    print "You got", random.randint(min, max), "in second dice\n"
     roll_again = raw_input("Do you want roll again? (yes/no) ")
     print
 

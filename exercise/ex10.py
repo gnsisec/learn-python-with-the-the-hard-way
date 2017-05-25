@@ -1,10 +1,10 @@
-#This is Python version 2.7.12
-#Exercise 10: What Was That?
+# This is Python version 2.7.12
+# Exercise 10: What Was That?
 
 # Escape The F*ckin error
 # print "I am 6'2\" tall."
 # print 'I am 6\'2" tall'
-### tricks put \ in front of the quotes that you use to print.
+# tricks put \ in front of the quotes that you use to print.
 
 tabby_cat = "\tI'm tabbed in."
 persian_cat = "I'm split\non a line."

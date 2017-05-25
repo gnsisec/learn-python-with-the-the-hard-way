@@ -1,8 +1,9 @@
-#This is Python version 2.7.12
-#Exercise 24: More Practice
+# This is Python version 2.7.12
+# Exercise 24: More Practice
 
 print "Let's practice everything"
-print 'You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs'
+print 'You\'d need to know \'bout escapes with \\ that do \
+    \n newlines and \t tabs'
 
 poem = """
 \tThe lovely world
@@ -20,15 +21,17 @@ print "-----------"
 five = 10 - 2 + 3 - 6
 print "This should be five: %s" % five
 
+
 def secret_formula(started):
     jelly_beans = started * 500
     jars = jelly_beans / 1000
     crates = jars / 100
     return jelly_beans, jars, crates
 
+
 start_point = 10000
 beans, bottle, box = secret_formula(start_point)
-print "We'd have %d beans, %d jars, %d crates." % (beans,bottle,box)
+print "We'd have %d beans, %d jars, %d crates." % (beans, bottle, box)
 
 start_point = start_point / 10
 print "\nWe can also do that this way:"

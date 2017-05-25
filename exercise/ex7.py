@@ -1,17 +1,17 @@
-#This is Python version 2.7.12
-#Exercise 7: More Printing
+# This is Python version 2.7.12
+# Exercise 7: More Printing
 
-### This is a poem
+# This is a poem
 print "Mary had a little lamb."
 
-### will replace %s with 'snow'
+# will replace %s with 'snow'
 print "Its fleece was white as %s." % "snow"
 print "And everywhere that Mary went."
 
-### It will print 10 times dot
-print "." * 10 # what'd that do ?
+# It will print 10 times dot
+print "." * 10  # what'd that do ?
 
-### Like an array... But it's variable!
+# Like an array... But it's variable!
 end1 = "C"
 end2 = "h"
 end3 = "e"

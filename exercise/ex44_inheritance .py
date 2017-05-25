@@ -1,5 +1,6 @@
-#This is Python version 2.7.12
-#Exercise 44: Inheritance Versus Composition
+# This is Python version 2.7.12
+# Exercise 44: Inheritance Versus Composition
+
 
 class Parent(object):
 
@@ -12,6 +13,7 @@ class Parent(object):
     def altered(self):
         print "PARENT altered()\n"
 
+
 class Child(Parent):
 
     def override(self):
@@ -20,8 +22,9 @@ class Child(Parent):
     def altered(self):
         print "CHILD, BEFORE PARENT altered()"
         # super(Child, self).altered()
-        super(Child,self).altered()
+        super(Child, self).altered()
         print "CHILD, AFTER PARENT altered()\n"
+
 
 dad = Parent()
 son = Child()

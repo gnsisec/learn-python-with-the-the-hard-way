@@ -1,5 +1,5 @@
-#This is Python version 2.7.12
-#Exercise 41: Learning To Speak Object Oriented
+# This is Python version 2.7.12
+# Exercise 41: Learning To Speak Object Oriented
 
 import random
 from urllib import urlopen
@@ -9,18 +9,17 @@ WORD_URL = "http://learncodethehardway.org/words.txt"
 WORDS = []
 
 PHRASES = {
-    "class %%%(%%%):":
-      "Make a class named %%% that is-a %%%.",
-    "class %%%(object):\n\tdef __init__(self, ***)" :
-      "class %%% has-a __init__ that takes self and *** parameters.",
+    "class %%%(%%%):": "Make a class named %%% that is-a %%%.",
+    "class %%%(object):\n\tdef __init__(self, ***)":
+    "class %%% has-a __init__ that takes self and *** parameters.",
     "class %%%(object):\n\tdef ***(self, @@@)":
-      "class %%% has-a function named *** that takes self and @@@ parameters.",
+    "class %%% has-a function named *** that takes self and @@@ parameters.",
     "*** = %%%()":
-      "Set *** to an instance of class %%%.",
+    "Set *** to an instance of class %%%.",
     "***.***(@@@)":
-      "From *** get the *** function, and call it with parameters self, @@@.",
+    "From *** get the *** function, and call it with parameters self, @@@.",
     "***.*** = '***'":
-      "From *** get the *** attribute and set it to '***'."
+    "From *** get the *** attribute and set it to '***'."
 }
 
 # do they want to drill phrases first
@@ -42,7 +41,7 @@ def convert(snippet, phrase):
     param_names = []
 
     for i in range(0, snippet.count("@@@")):
-        param_count = random.randint(1,3)
+        param_count = random.randint(1, 3)
         param_names.append(', '.join(random.sample(WORDS, param_count)))
 
     for sentence in snippet, phrase:

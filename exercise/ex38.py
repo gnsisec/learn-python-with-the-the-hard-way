@@ -1,5 +1,5 @@
-#This is Python version 2.7.12
-#Exercise 38: Doing Things to Lists
+# This is Python version 2.7.12
+# Exercise 38: Doing Things to Lists
 
 ten_things = "Apples Oranges Crows Telephone Light Sugar"
 
@@ -18,7 +18,7 @@ print
 print "There we go: ", stuff
 print "Let's do some things wits stuff."
 print stuff[1]
-print stuff[-1] # whoa! fancy
+print stuff[-1]  # whoa! fancy
 print stuff.pop()
-print ' '.join(stuff) # what? cool!
-print '#'.join(stuff[3:6]) # super stellar
+print ' '.join(stuff)  # what? cool!
+print '#'.join(stuff[3:6])  # super stellar

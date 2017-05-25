@@ -1,6 +1,6 @@
-#This is Python version 2.7.12
-#Exercise 1: A Good First Program
-#Drill: Make your script print only one of the lines.
+# This is Python version 2.7.12
+# Exercise 1: A Good First Program
+# Drill: Make your script print only one of the lines.
 
 '''
 print "Hello World!"
@@ -14,4 +14,4 @@ print 'I "said" do not touch this.'
 
 print "I print only one WOHOOOO!"
 
-#hint: use ''' to comment more than 1 line
+# hint: use ''' to comment more than 1 line

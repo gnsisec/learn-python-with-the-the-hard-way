@@ -1,5 +1,5 @@
-#This is Python version 2.7.12
-#Exercise 14: Prompting and Passing
+# This is Python version 2.7.12
+# Exercise 14: Prompting and Passing
 
 # to run this use:
 # python ex14.py matthew

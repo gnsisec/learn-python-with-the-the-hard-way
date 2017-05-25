@@ -1,5 +1,5 @@
-#This is Python version 2.7.12
-#Exercise 1: A Good First Program
+# This is Python version 2.7.12
+# Exercise 1: A Good First Program
 
 print "Hello World!"
 print "Hello Again"

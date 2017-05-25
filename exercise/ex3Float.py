@@ -1,6 +1,6 @@
-#This is Python version 2.7.12
-#Exercise 3: Numbers and Math
-#Drill: Floating point
+# This is Python version 2.7.12
+# Exercise 3: Numbers and Math
+# Drill: Floating point
 
 print "I will now count my cell:"
 print "Hens", 25.23 + 30.00 / 6

@@ -1,5 +1,5 @@
-#This is Python version 2.7.12
-#Exercise 30: Else and If
+# This is Python version 2.7.12
+# Exercise 30: Else and If
 
 people = 30
 cars = 40

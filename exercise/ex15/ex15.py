@@ -1,5 +1,5 @@
-#This is Python version 2.7.12
-#Exercise 15: Reading Files
+# This is Python version 2.7.12
+# Exercise 15: Reading Files
 
 # to run this use:
 # python ex15.py ex15_sample.txt

@@ -1,6 +1,6 @@
-#This is Python version 2.7.12
-#Exercise 1: A Good First Program
-#Drill: Make your script print another line.
+# This is Python version 2.7.12
+# Exercise 1: A Good First Program
+# Drill: Make your script print another line.
 
 print "Hello World!"
 print "Hello Again"
@@ -12,4 +12,4 @@ print 'I "said" do not touch this.'
 
 print "\nI print in another line WOHOOOO!"
 
-#hint: use \n to enter the other zone of line
+# hint: use \n to enter the other zone of line

@@ -1,5 +1,5 @@
-#This is Python version 2.7.12
-#Exercise 12: Prompting People
+# This is Python version 2.7.12
+# Exercise 12: Prompting People
 
 age = raw_input("How old are you? ")
 height = raw_input("How tall are you? ")
