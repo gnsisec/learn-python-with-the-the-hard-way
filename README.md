@@ -17,6 +17,9 @@ A good stuff for newbie for learning programming. Learning basics of Python lang
 * in order to check installed version of the Python, type: `python --version`
 * in order to exit python console type `exit()`
 
+### Pyhton code style guide
+Like an art, code has a style too. This style is general guide if you want to learn how a developer writing a clean code and better readability. https://www.python.org/dev/peps/pep-0008
+
 ### Pip
 Pip is a Python Package Manager.
 
@@ -38,10 +41,6 @@ Pip is a Python Package Manager.
 2. Type `brew install python3`
 
 This command will install python and pip.
-
-##### Pyhton code style guide
-This document gives coding conventions for the Python code comprising the standard library in the main Python distribution.
-https://www.python.org/dev/peps/pep-0008
 
 ##### Using Pip
 * In order to install desired package just type `pip install desired_package` (e.g. `pip install Flask`)
