@@ -26,7 +26,7 @@ print "Let's do some math with just functions!"
 age = add(30, 5)
 height = subtract(78, 4)
 weight = multiply(90, 2)
-iq = divide(100., 2)
+iq = divide(100, 2)
 
 print "\nAge: %d, Height: %d, Weight: %d, IQ: %d" % (
     age, height, weight, iq)
@@ -35,6 +35,7 @@ print "\nAge: %d, Height: %d, Weight: %d, IQ: %d" % (
 print "\nHere is a puzzle."
 
 what = add(multiply(iq, add(iq, age)), subtract(height, weight))
-# what = add(age, subtract(height,multiply(weight,divide(iq,2))))
+print
+what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
-print "That become: ", int(what), "Can you do it by hand ?"
+print "\nThat become: ", int(what), "Can you do it by hand ?"
