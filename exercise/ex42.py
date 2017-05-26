@@ -13,8 +13,7 @@ class Animal(object):
 class Dog(Animal):
 
     def __init__(self, name):
-        # class named Dog has-a __init__ function that takes self and \
-        name parameters
+        # class named Dog has-a __init__ function that takes self and name parameters
         self.name = name
 
 
@@ -23,7 +22,7 @@ class Dog(Animal):
 class Cat(Animal):
 
     def __init__(self, name):
-        # class named Cat has-a __init__ function that takes self and \name parameters
+        # class named Cat has-a __init__ function that takes self and name parameters
         self.name = name
 
 # class named Person is-a object
@@ -67,25 +66,28 @@ class Salmon(Fish):
 
 class Halibut(Fish):
     pass
-    # rover is-a Dog
-    rover = Dog("Rover")
 
-    # satan is-a Cat
-    satan = Cat("Satan")
+# rover is-a Dog
 
-    # mary is-a Person
-    mary = Person("Mary")
 
-    # mary.pet has-a satan
-    mary.pet = satan
+rover = Dog("Rover")
 
-    # frank is-a Employee("Frank", 120000)
-    frank = Employee("Frank", 120000)
+# satan is-a Cat
+satan = Cat("Satan")
+
+# mary is-a Person
+mary = Person("Mary")
+
+# mary.pet has-a satan
+mary.pet = satan
+
+# frank is-a Employee("Frank", 120000)
+frank = Employee("Frank", 120000)
 
 # frank.pet has-a rover
 
 
-failrank.pet = rover
+frank.pet = rover
 # flipper is-a Fish
 flipper = Fish()
 # crouse is-a Salmon
