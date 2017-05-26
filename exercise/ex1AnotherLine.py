@@ -1,4 +1,4 @@
-# This is Python version 2.7.12
+# This is Python version 2.7
 # Exercise 1: A Good First Program
 # Drill: Make your script print another line.
 

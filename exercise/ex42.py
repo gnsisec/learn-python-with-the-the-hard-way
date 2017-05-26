@@ -1,4 +1,4 @@
-# This is Python version 2.7.12
+# This is Python version 2.7
 # Exercise 42: Is-A, Has-A, Objects, and Classes
 
 # Animal is-a object (yes, sort of confusing) look at the extra credit

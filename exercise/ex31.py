@@ -1,4 +1,4 @@
-# This is Python version 2.7.12
+# This is Python version 2.7
 # Exercise 31: Making Decisions
 
 print "You enter a dark room with two doors. Do you go through \

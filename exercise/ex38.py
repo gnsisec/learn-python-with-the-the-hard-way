@@ -1,4 +1,4 @@
-# This is Python version 2.7.12
+# This is Python version 2.7
 # Exercise 38: Doing Things to Lists
 
 ten_things = "Apples Oranges Crows Telephone Light Sugar"

@@ -1,4 +1,4 @@
-# This is Python version 2.7.12
+# This is Python version 2.7
 # Exercise 10: What Was That?
 
 # Escape The F*ckin error

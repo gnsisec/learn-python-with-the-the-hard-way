@@ -1,4 +1,4 @@
-# This is Python version 2.7.12
+# This is Python version 2.7
 # Exercise 11: Asking Questions
 
 # using raw_input with convert to integer

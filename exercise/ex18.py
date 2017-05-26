@@ -1,4 +1,4 @@
-# This is Python version 2.7.12
+# This is Python version 2.7
 # Exercise 18: Names, Variables, Code, Functions
 
 # this one is like your scripts with argv

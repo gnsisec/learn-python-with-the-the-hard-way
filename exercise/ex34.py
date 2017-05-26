@@ -1,4 +1,4 @@
-# This is Python version 2.7.12
+# This is Python version 2.7
 # Exercise 34: Accessing Elements of Lists
 
 animals = ['bear', 'python', 'peacock', 'kangaroo', 'whale', 'platypus']

@@ -1,4 +1,4 @@
-# This is Python version 2.7.12
+# This is Python version 2.7
 # Exercise 13: Parameters, Unpacking, Variables
 
 # to run this use:

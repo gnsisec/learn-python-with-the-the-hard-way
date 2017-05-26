@@ -1,4 +1,4 @@
-# This is Python version 2.7.12
+# This is Python version 2.7
 # Exercise 14: Prompting and Passing
 
 # to run this use:
@@ -23,5 +23,5 @@ computer = raw_input(prompt)
 print """
 Alright, so you said %r about liking me.
 You live in %r. Not sure where that is.
-And you have a %r compter. Nice.
+And you have a %r computer. Nice.
 """ % (likes, lives, computer)

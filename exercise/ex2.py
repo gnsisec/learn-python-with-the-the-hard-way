@@ -1,4 +1,4 @@
-# This is Python version 2.7.12
+# This is Python version 2.7
 # Exercise 2: Comments and Pound Characters
 
 # A comment, this is so you can read your program later.

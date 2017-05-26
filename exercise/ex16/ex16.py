@@ -1,4 +1,4 @@
-# This is Python version 2.7.12
+# This is Python version 2.7
 # Exercise 16: Reading and Writing Files
 
 # to run this use:

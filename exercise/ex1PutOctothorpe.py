@@ -1,4 +1,4 @@
-# This is Python version 2.7.12
+# This is Python version 2.7
 # Exercise 1: A Good First Program
 # Drill: Put a # (octothorpe) character at the beginning of a line.
 # What did it do? Try to find out what this character does.
