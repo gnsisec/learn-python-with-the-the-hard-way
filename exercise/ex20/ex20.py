@@ -11,7 +11,6 @@ def print_all(f):
 
 
 def rewind(f):
-
     f.seek(0)
 
 
