@@ -67,9 +67,8 @@ class Salmon(Fish):
 class Halibut(Fish):
     pass
 
+
 # rover is-a Dog
-
-
 rover = Dog("Rover")
 
 # satan is-a Cat
@@ -78,19 +77,20 @@ satan = Cat("Satan")
 # mary is-a Person
 mary = Person("Mary")
 
-# mary.pet has-a satan
+# from mary get pet atribut and set it to satan
 mary.pet = satan
 
 # frank is-a Employee("Frank", 120000)
 frank = Employee("Frank", 120000)
 
-# frank.pet has-a rover
-
-
+# from frank get pet atribute and set it to rover
 frank.pet = rover
+
 # flipper is-a Fish
 flipper = Fish()
+
 # crouse is-a Salmon
 crouse = Salmon()
+
 # harry is-a Halibut
 harry = Halibut()
